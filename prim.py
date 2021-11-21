@@ -1,17 +1,4 @@
-# Prim's Algorithm implementation function
 
-# The algorithm takes weighted undirected graphs and find the
-# minimum spanning tree(MST)
-# The function takes 2 arguments, the graph and the node
-# The graph is represented using the adjacency matrix in a 2D array
-# The node is number of vertices in the graph.
-# By implementing the conditions for Prim's Algorithm which are:
-#    *Randomly choose a vertices to start the minimum spanning tree from.
-#    *Find the minimum weight of all the edges connecting the tree to new vertices and add it to the tree.
-#    *This is repeated till all nodes have been visited
-
-# The prims function below returns the vertices with the minimum weight on their edges
-# and the total weight of the Minimum Spanning Tree(MST)
 
 def prims(graph, node):
 
